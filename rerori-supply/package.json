@@ -1,0 +1,16 @@
+{
+  "name": "rerori-supply",
+  "version": "1.0.0",
+  "description": "Backend for rihan portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js -i 'max' --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sanjay",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pm2": "^4.5.4"
+  }
+}
